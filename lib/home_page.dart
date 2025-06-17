@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Home Screen of app
+
 class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -13,7 +15,7 @@ class HomePage extends StatelessWidget{
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: SizedBox(
-                width: 400,
+                width: 450,
               child: Column(
                 children: [
 
