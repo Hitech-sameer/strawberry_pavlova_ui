@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:strawberry_pavlova/appbar.dart';
 
 // Home Screen of app
 
@@ -6,6 +7,7 @@ class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
   return Scaffold(
+    appBar: myAppBar(),
     body: Padding(
       padding: const EdgeInsets.all(30.0),
       child: SizedBox(height: double.infinity,
